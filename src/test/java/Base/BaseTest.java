@@ -16,7 +16,7 @@ public class BaseTest {
     }
 
     @AfterMethod
-    public void Close() {
+    public void close() {
         if (driver != null) {
             driver.quit();
         }
